@@ -8,7 +8,8 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class BlogController extends Controller {
   public function registerAction() {
-	  return $this->render('TaxBundle:Blog:register.html.twig');
+	  //return new Response("Welcome to Blog List");
+	  return $this->render('TaxiBundle:Blog:register.html.twig');
   }
 }
 

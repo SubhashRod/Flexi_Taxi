@@ -1,15 +1,15 @@
 <?php
-namespace BlogBundle\Entity;
+namespace Bundle\Entity;
  
 use Doctrine\ORM\Mapping as ORM;
  
 /**
   * @ORM\Entity
-  * @ORM\Table(name="post")
+  * @ORM\Table(name="taxidriver")
   */
-class Post {
+class TaxiDriver {
   /**
-    * @ORM\Column(type="integer")
+    * @ORM\Column(type="sting")
     * @ORM\Id
     * @ORM\GeneratedValue(strategy="AUTO")
     */
@@ -18,7 +18,7 @@ class Post {
   /**
     * @ORM\Column(type="string", length=255)
     */
-  protected $title;
+  protected $name;
  
   public function getId()
   {

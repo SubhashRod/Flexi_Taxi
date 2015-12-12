@@ -1,3 +1,3 @@
 blog_list:
     path:     /blogs
-    defaults: { _controller: TaxiBundle:Blog:list }
+    defaults: { _controller: TaxiBundle:Blog:register}
