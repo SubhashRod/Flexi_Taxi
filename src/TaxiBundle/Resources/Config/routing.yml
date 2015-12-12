@@ -1,3 +1,3 @@
 blog_list:
-    path:     /Flexi_Taxi
-    defaults: { _controller: BlogBundle:Blog:list }
+    path:     /blogs
+    defaults: { _controller: TaxiBundle:Blog:list }

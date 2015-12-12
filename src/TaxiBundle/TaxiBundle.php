@@ -1,5 +1,6 @@
 <?php
-namespace BlogBundle;
+namespace TaxiBundle;
+
 use Symfony\Component\HttpKernel\Bundle\Bundle;
-class BlogBundle extends Bundle {
+class TaxiBundle extends Bundle {
 }
