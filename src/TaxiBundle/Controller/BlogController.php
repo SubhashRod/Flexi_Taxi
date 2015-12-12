@@ -7,8 +7,9 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 
 class BlogController extends Controller {
-  public function listAction() {
-	  return new Response("Welcome to Blog List");
+  public function registerAction() {
+	      return $this->render('TaxiBundle:Blog:register.html.twig');
+
   }
 }
 
