@@ -1,0 +1,12 @@
+<html>
+<head>
+</head>
+<body>
+<h1>Welcome to Blog List</h1>
+<ul>
+{% for post in posts %}
+<li>{{ post.getName() }}</li>
+{% endfor %}
+</ul>
+</body>
+</html>
